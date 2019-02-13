@@ -172,7 +172,7 @@ def convert_files_to_npz(input_folder, out_folder, out_prefix):
 
 
 if __name__ == '__main__':
-    in_folder = '../data/train/Track2/'
-    output_folder = '../data/train/track2_npz'
+    in_folder = '/data/projects/dataFusion/Track2/Train-Track2-RGB/'
+    output_folder = '/data/projects/dataFusion/Track2/track2_npz'
     output_prefix = 'dfc2019.track2'
     convert_files_to_npz(in_folder, output_folder, output_prefix)
